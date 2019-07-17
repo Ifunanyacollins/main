@@ -1,0 +1,33 @@
+ li span {
+ 	margin-right:2.0rem;
+ }
+
+ .hero-image{
+ 	background-image: url("../images/happy.jpg");
+ 	width:100%;
+    height:100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .hero-text{
+ 	height:100vh;
+ 	background-color:#EBEDEF;
+ }
+
+ .leftx{
+	float:left;
+	margin-left:1.6rem;
+}
+ .bold{
+ 	font-weight: bold;
+ }
+
+ @media only screen and (max-width: 600px) {
+
+   .hero-text{
+ 	height:100%;
+ 	background-color:#EBEDEF;
+ }
+ }
